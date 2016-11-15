@@ -237,7 +237,7 @@ uint64_t* fourierTransform(polynomial* p, long n, long s, int field) {
 
 	if(n==2) {
 
-		uint64_t* ret = (uint64_t *) malloc(sizeof(uint64_t) *3);
+		uint64_t* ret = (uint64_t *) malloc(sizeof(uint64_t) *2);
 
 		uint64_t first = WofI(p,2*s,field);
 
